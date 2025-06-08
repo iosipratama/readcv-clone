@@ -179,4 +179,29 @@ section {
 section.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Side Projects styles */
+.side-projects .timeline-item {
+    margin-bottom: 2rem;
+}
+
+.side-projects h3 {
+    margin-bottom: 0.5rem;
+}
+
+.side-projects h3 a {
+    color: #111;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.side-projects h3 a:hover {
+    color: #666;
+}
+
+.side-projects p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
 } 
