@@ -1,4 +1,4 @@
-# Read.CV Clone
+# read.cv Clone
 
 A simple, modern personal website template inspired by [read.cv](https://read.cv). Easily copy, customize, and reuse for your own portfolio or resume site.
 
