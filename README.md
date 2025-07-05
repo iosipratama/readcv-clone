@@ -1,6 +1,6 @@
 # read.cv Clone
 
-A simple, modern personal website template inspired by [read.cv](https://read.cv). Easily copy, customize, and reuse for your own portfolio or resume site.
+[read.cv](https://read.cv) was great for simple, modern personal website. unfortunately, it's discontinue. I made this so that you can easily copy, customize, and reuse for your own portfolio or resume site.
 
 - Built with [Tailwind CSS](https://tailwindcss.com) for fast, responsive design
 - Clean, minimal, and easy to edit
@@ -16,7 +16,6 @@ A simple, modern personal website template inspired by [read.cv](https://read.cv
 
 Feel free to fork and make it your own! 
 
----
 
 ## Changelog 
 2025-07-05: added simple hover effect on the links. 
