@@ -6,6 +6,8 @@ A simple, modern personal website template inspired by [read.cv](https://read.cv
 - Clean, minimal, and easy to edit
 - No build tools required—just edit the HTML and go!
 
+![Preview](images/preview.jpg)
+
 ## Usage
 
 1. Clone or download this repository
