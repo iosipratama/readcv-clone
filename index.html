@@ -3,128 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iosi Pratama</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Read.CV Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'label-primary': '#eeeeee',
+                        'label-secondary': '#bbbbbb',
+                        'label-tertiary': '#888888',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <div class="container">
-        <header class="header">
-            <div class="profile">
-                <div class="profile-image">
-                    <img src="images/iosipratama.png" alt="Iosi Pratama">
-                </div>
-                <div class="profile-info">
-                    <h1>Iosi Pratama</h1>
-                    <p class="title">iOS App Designer</p>
-                    <div class="social-links">
-                        <a href="#" target="_blank" title="Design Portfolio"><i class="fa-solid fa-pen-nib"></i></a>
-                        <a href="https://github.com/iosipratama" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/iosipratama/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://x.com/iosipratama" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
+<body class="bg-[#222222] text-label-secondary text-base leading-relaxed">
+
+    <div class="max-w-[580px] mx-auto my-20">
+        <header class="mb-12">
+            <div class="flex gap-6 items-center">
+                <img src="images/avatar.png" alt="your name" class="w-[92px] h-[92px] rounded-full" loading="lazy" title="your name">
+                <div class="">
+                    <h1 class="text-xl mb-2 text-label-primary">Hiroshi Tanaka</h1>
+                    <p class="text-label-secondary">Software Engineer</p>
                 </div>
             </div>
         </header>
 
         <main>
-            <section class="about">
-                <h2>About</h2>
-                <p>Designing beautifully simple  iOS Apps.</p>
+            <section class="mb-9">
+                <h2 class="text-label-primary mb-2">About</h2>
+                <p class="leading-[1.8] text-label-secondary">Software engineer with 8+ years of experience building scalable applications. Skilled in product design and front-end development.</p>
+            </section>
+            
+            <section class="mb-9">
+                <h2 class="text-label-primary mb-2">Experience</h2>
+                <div class="flex gap-2 mb-9">
+                    <div class="text-label-tertiary min-w-[180px]">Apr 2023 — Present</div>
+                    <div class="">
+                        <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">Staff Software Engineer at Figma
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>
+                        <p class="mb-2">Tokyo, Japan</p>
+                        <p>Developed backend systems for collaborative tools like FigJam and optimized API performance for real-time collaboration.</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 mb-9">
+                    <div class="text-label-tertiary min-w-[180px]">2021 — 2023</div>
+                    <div class="">
+                        <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">Front-End Engineer at Shopify
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>
+                        <p class="mb-2">Singapore</p>
+                        <p>Built React-based storefront templates and improved checkout workflows, reducing load times by 25%.</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 mb-9">
+                    <div class="text-label-tertiary min-w-[180px]">2021 — 2023</div>
+                    <div class="">
+                        <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">Backend Engineer at Tencent
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>
+                        <p class="mb-2">Shenzhen, China</p>
+                        <p>Developed scalable backend systems for WeChat Pay and optimized database queries for faster transaction processing.</p>
+                    </div>
+                </div>
+                <div class="flex gap-2 mb-9">
+                    <div class="text-label-tertiary min-w-[180px]">2021 — 2023</div>
+                    <div class="">
+                        <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">Junior Software Engineer at Grab
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>
+                        <p class="mb-2">Jakarta, Indonesia</p>
+                        <p>Implemented ride-booking algorithms and enhanced GrabFood delivery tracking systems, improving user experience.</p>
+                    </div>
+                </div>    
+                
             </section>
 
-            <section class="side-projects">
-                <h2>Side Projects</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3><a href="https://www.figma.com/@iosipratama" target="_blank" rel="noopener noreferrer">Figma Community</a></h3>
-                            <p>Sharing free Figma design resources</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3><a href="https://ui8.net/iosipratama" target="_blank" rel="noopener noreferrer">UI8 Author</a></h3>
-                            <p>Creating and selling iOS UI Kits to help you build better apps.</p>
-                        </div>
+            <section class="mb-9">
+                <h2 class="text-label-primary mb-2">Education</h2>
+                <div class="flex gap-2 mb-9">
+                    <div class="text-label-tertiary min-w-[180px]">2011 — 2015</div>
+                    <div class="">
+                        <p href="#" class="text-label-primary mb-1">Bachelor of Science in Computer Science</p>
+                        <p class="mb">National University of Singapore</p>
                     </div>
                 </div>
             </section>
 
-            <section class="experience">
-                <h2>Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">Apr 2023 — Present</div>
-                        <div class="timeline-content">
-                            <h3>Product Designer</h3>
-                            <p class="company">Tappz</p>
-                            <p>Designing  Apps</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Jan 2022 — Mar 2023</div>
-                        <div class="timeline-content">
-                            <h3>Product Designer</h3>
-                            <p class="company">Finblox</p>
-                            <p>Founding Designer. Leading a collaborative effort in designing Finblox ecosystem products.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Nov 2019 — Dec 2021</div>
-                        <div class="timeline-content">
-                            <h3>Product Designer</h3>
-                            <p class="company">Itsavirus</p>
-                            <p>Focused on mobility, smart city, and blockchain projects from various locations in Europe and SE Asia. I contribute to the overall product design process.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">Jan 2021 — Dec 2021</div>
-                        <div class="timeline-content">
-                            <h3>Product Designer</h3>
-                            <p class="company">Djavaweb</p>
-                            <p>I'm as a UI UX Designer part of the design team working collaboratively with product owner and developer in the production team. </p>
-                        </div>
-                    </div>
+            <section>
+                <h2 class="text-label-primary mb-2">Contact</h2>
+                <div class="flex gap-2 mb-1">
+                    <div class="text-label-tertiary min-w-[180px]">Email</div>
+                    <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">hey@hiroshi.com
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>   
+                </div>
+                <div class="flex gap-2 mb-1">
+                    <div class="text-label-tertiary min-w-[180px]">Github</div>
+                    <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">hiroshi
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>   
+                </div>
+                <div class="flex gap-2 mb-1">
+                    <div class="text-label-tertiary min-w-[180px]">Twitter</div>
+                    <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">hiroshi
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>   
+                </div>
+                <div class="flex gap-2 mb-1">
+                    <div class="text-label-tertiary min-w-[180px]">Linkedin</div>
+                    <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">in/hiroshi
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>   
+                </div>
+                <div class="flex gap-2">
+                    <div class="text-label-tertiary min-w-[180px]">Substack</div>
+                    <a href="#" class="text-label-primary mb-1 inline-flex items-center gap-1">hiroshi
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 16.5 16.5 7.5m0 0h-6.75m6.75 0v6.75" /></svg></a>   
                 </div>
             </section>
-
-            <section class="skills">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-item">Interface Design</div>
-                    <div class="skill-item">SwiftUI</div>
-                    <div class="skill-item">AI Prompt Engineering</div>
-                    <div class="skill-item">Product Thinking</div>
-                </div>
-            </section>
-
-            <section class="education">
-                <h2>Education</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">2018 — 2021</div>
-                        <div class="timeline-content">
-                            <h3>Human Computer Interaction</h3>
-                            <p class="company">iXDF - The Interfaction Design Foundation</p>
-                            <p>Product Design</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2017</div>
-                        <div class="timeline-content">
-                            <h3>English Language</h3>
-                            <p class="company">TEST English School</p>
-                            <p>Grade: C2 Level</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
         </main>
-
-        <footer>
-            <p>© 2025 Iosi Pratama</p>
-        </footer>
     </div>
     <script src="script.js"></script>
 </body>
